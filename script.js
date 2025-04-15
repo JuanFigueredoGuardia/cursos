@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         boton.addEventListener('click', event => {
             event.preventDefault();
             const nombreCurso = boton.dataset.curso;
-            window.location.href = `detalle-curso.html?curso=${nombreCurso}`;
+            window.location.href = `programacion.html?curso?curso=${nombreCurso}`;
         });
     });
 });
