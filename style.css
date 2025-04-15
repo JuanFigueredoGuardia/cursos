@@ -445,4 +445,9 @@ footer .footer-images img {
     padding: 20px;
 }
 
-/* ... (resto del CSS) ... */
+hr.red-line {
+    border: none;
+    height: 2px;
+    background-color: red;
+    margin: 20px 0;
+}
